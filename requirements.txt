@@ -1,0 +1,6 @@
+pytest
+allure-pytest
+pytest-html
+requests
+PyYAML
+urllib3

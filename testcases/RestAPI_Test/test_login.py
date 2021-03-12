@@ -10,11 +10,11 @@ from utils.YamlUtil import YamlReader
 from utils.RequestUtil import Requests
 # from utils.RequestsUtil import *
 from config import Conf
-test_file = os.path.join(Conf.get_data_path(), 'testlogin.yml')
+test_file = os.path.join(Conf.get_data_path(), 'yaml_data/testlogin.yml')
 print(test_file)
 
 data_list = YamlReader(test_file).data_all()
-print(data_list)
+# print(data_list)
 @pytest.mark.login
 @pytest.mark.parametrize("login", data_list)
 def test_yaml(login):
@@ -58,9 +58,9 @@ def login(user, pwd):
 
 
 
-class TestLogin():
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+class Login():
     def __init__(self, name, pwd):
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         requests.adapters.DEFAULT_RETRIES =10
         self.session = requests.session()
         self.session.headers = {'Authorization': 'Basic a2FyYWY6a2FyYWY=', 'connection': 'close'}
@@ -94,16 +94,16 @@ class TestLogin():
 @allure.story("设备登录")
 def test_login():
     # @allure.story("正常登录")
-    device = TestLogin(name='admin', pwd='Passok')
+    device = Login(name='admin', pwd='Passok')
     res = device.login()
     assert res.status_code == 201
 
     # @allure.story("异常登录")
-    device2 = TestLogin(name='admin1', pwd='Passok')
+    device2 = Login(name='admin1', pwd='Passok')
     res = device2.login()
     assert res.status_code == 403
 
 
 if __name__ == '__main__':
-    device = TestLogin(name = "admin", pwd = "Passok")
+    device = Login(name = "admin", pwd = "Passok")
     res = device.login_status()

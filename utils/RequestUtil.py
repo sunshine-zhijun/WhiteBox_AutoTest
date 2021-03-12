@@ -6,9 +6,9 @@ import requests
 
 
 class Requests():
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
     def __init__(self):
+        # urllib3.disable_warnings()
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         requests.adapters.DEFAULT_RETRIES = 10
         self.session = requests.session()
         # self.ipaddress = ipaddress

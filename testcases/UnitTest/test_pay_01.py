@@ -4,7 +4,7 @@ from unittest import mock
 from code.pay import PayApi
 import pytest
 import allure
-
+@pytest.mark.pay
 @allure.feature("支付功能")
 @allure.description("测试使用第三方支付接口的函数支付功能，成功返回200，失败返回400")
 class TestPayAPI():
@@ -27,6 +27,7 @@ class TestPayAPI():
         status = pay.pay('aster', '888888', '10000')
         assert status == '支付失败'
     @allure.story("服务器错误")
+    @allure.title("服务器错误")
     def test_error(self):
         pay = PayApi()
         with allure.step("进行支付"):
