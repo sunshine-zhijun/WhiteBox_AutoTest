@@ -6,6 +6,7 @@ import requests
 import urllib3
 import json
 import os
+import allure
 from utils.YamlUtil import YamlReader
 from utils.RequestUtil import Requests
 # from utils.RequestsUtil import *

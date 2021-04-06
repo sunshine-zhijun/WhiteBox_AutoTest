@@ -1,0 +1,18 @@
+ID,TestCase,Level,Type,Annotation,Target,Expected_Data,Parameter,Output,Response,Author,Result
+100_1,Policy-illegal-post-100,1,POST,Before,Https://192.168.0.57/login,"{""status_code"": 200}","{
+  ""username"": ""admin"",
+  ""password"": ""passok""
+}",,,,
+100_2,Policy-illegal-post-100,1,POST,Test,Https://192.168.0.57/rest/v2/forward_policies,{'status_code': 400},"{
+  ""policy1"": {
+    ""ingress_ports"": [""C1""],
+  ""aster"": ""fusion"",
+    ""actions"": {
+      ""forward|C1"": {
+        ""acl_entries"": {
+          ""107000"": {
+            ""ace_type"": ""ip"",""is_exact_match"":false,
+            ""en_count"": true,""ip_version"": ""ipv4""
+          }}}}}}",,,,
+100_3,Policy-illegal-post-100,1,DELETE,Test,Https://192.168.0.57/rest/v2/forward_policies/policy1,{'status_code': 404},,,,,
+100_4,Policy-illegal-post-100,1,POST,After,Https://192.168.0.57/logout,"{""status_code"": 201}",,,,,

@@ -1,0 +1,39 @@
+---
+case_name : "出接口为egroup"
+parameter:
+    1: 
+      configuration:
+        evif_name: "egroup1"
+mock_value: ["C1","C2","C3"] 
+exp_status_code: {'C1': ['policy1'], 'C2': ['policy1'], 'C3': ['policy1']}
+---
+case_name : "出接口为elag"
+parameter:
+    1: 
+      configuration:
+        evif_name: "elag1"
+mock_value: ["C11","C12","C13"]
+exp_status_code: {'C11': ['policy1'], 'C12': ['policy1'], 'C13': ['policy1']}
+
+---
+case_name : "出接口为单接口"
+parameter:
+    1: 
+      configuration:
+        evif_name: "C32"
+mock_value: ["C1","C2","C3"]
+exp_status_code: {'C32': ['policy1']}
+
+
+---
+case_name : "出接口为单接口"
+parameter:
+    1: 
+      configuration:
+        evif_name: "C32"
+    2:
+      configuration:
+        evif_name: "C31"
+mock_value: ["C1","C2","C3"]
+exp_status_code: {'C31': ['policy1'], 'C32': ['policy1']}
+
