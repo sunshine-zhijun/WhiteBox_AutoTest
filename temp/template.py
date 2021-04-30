@@ -132,9 +132,9 @@ if __name__ == "__main__":
             dict1["exp"] = ast.literal_eval(i["exp"])
             print(i.get("mock_value"))
             print(type(i.get("mock_value")))
-            if i.get("mock_value"):
-                print(i.get("mock_value"))
-                dict1["mock_value"] = ast.literal_eval(i["mock_value"])
+            if i.get("MockValue"):
+                print(i.get("MockValue"))
+                dict1["mock_value"] = ast.literal_eval(i["MockValue"])
                 # 将mock_value 数据转化为字符串,格式化模板
                 for key in dict1["mock_value"].keys():
                     print("000000",key)
