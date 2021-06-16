@@ -1,0 +1,6 @@
+2021-06-16 11:43:28.123 | DEBUG    | __main__:generate:29 - ==========safsaf
+2021-06-16 11:43:28.123 | WARNING  | __main__:generate:30 - if you are using python 3.6, prefer f-strings of course!
+2021-06-16 11:43:28.123 | FAIL     | __main__:generate:31 - ++++++++
+2021-06-16 11:43:28.139 | INFO     | utils.generate_caces:generate_case:69 - testcases/UnitTest/PFX/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py
+2021-06-16 11:43:28.140 | INFO     | utils.generate_caces:generate_case:69 - testcases/UnitTest/PFX/forward_policies/test_get_elag_interfaces.py
+2021-06-16 11:43:28.149 | INFO     | utils.generate_caces:generate_case:69 - testcases/UnitTest/pay_test/test_pay.py

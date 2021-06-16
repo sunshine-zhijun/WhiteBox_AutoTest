@@ -1,0 +1,16 @@
+2021-06-16 10:01:05.073 | DEBUG    | __main__:generate:16 - ==========safsaf
+2021-06-16 10:01:05.073 | WARNING  | __main__:generate:17 - if you are using python 3.6, prefer f-strings of course!
+2021-06-16 10:01:05.073 | FAIL     | __main__:generate:18 - ++++++++
+2021-06-16 10:01:05.504 | ERROR    | __main__:<module>:35 - An error has been caught in function '<module>', process 'MainProcess' (17847), thread 'MainThread' (140519276422912):
+Traceback (most recent call last):
+
+> File "run.py", line 35, in <module>
+    fun(0,0)
+    └ <function fun at 0x7fcd0663a0d0>
+
+  File "run.py", line 26, in fun
+    return 1/x+y
+             │ └ 0
+             └ 0
+
+ZeroDivisionError: division by zero

@@ -1,0 +1,11 @@
+2021-06-16 11:54:55.925 | DEBUG    | __main__:generate:29 - ==========safsaf
+2021-06-16 11:54:55.925 | WARNING  | __main__:generate:30 - if you are using python 3.6, prefer f-strings of course!
+2021-06-16 11:54:55.925 | FAIL     | __main__:generate:31 - ++++++++
+2021-06-16 11:54:55.936 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 11:54:55.942 | WARNING  | utils.generate_caces:generate_case:63 - =========
+2021-06-16 11:54:55.943 | INFO     | utils.generate_caces:generate_case:72 - testcases/UnitTest/PFX/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py
+2021-06-16 11:54:55.943 | WARNING  | utils.generate_caces:generate_case:63 - =========
+2021-06-16 11:54:55.944 | INFO     | utils.generate_caces:generate_case:72 - testcases/UnitTest/PFX/forward_policies/test_get_elag_interfaces.py
+2021-06-16 11:54:55.948 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 11:54:55.952 | WARNING  | utils.generate_caces:generate_case:63 - =========
+2021-06-16 11:54:55.952 | INFO     | utils.generate_caces:generate_case:72 - testcases/UnitTest/pay_test/test_pay.py

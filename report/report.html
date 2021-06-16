@@ -405,54 +405,27 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 19-Apr-2021 at 19:38:59 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.22.1</p>
+    <p>Report generated on 16-Jun-2021 at 18:48:25 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.22.1</p>
     <h2>Environment</h2>
     <table id="environment">
-      <tr>
-        <td>BUILD_ID</td>
-        <td>30</td></tr>
-      <tr>
-        <td>BUILD_NUMBER</td>
-        <td>30</td></tr>
-      <tr>
-        <td>BUILD_TAG</td>
-        <td>jenkins-pytest_allure_test-30</td></tr>
-      <tr>
-        <td>BUILD_URL</td>
-        <td><a href="http://127.0.0.1:8076/job/pytest_allure_test/30/" target="_blank">http://127.0.0.1:8076/job/pytest_allure_test/30/</a></td></tr>
-      <tr>
-        <td>EXECUTOR_NUMBER</td>
-        <td>1</td></tr>
       <tr>
         <td>JAVA_HOME</td>
         <td>/usr/local/java/jre1.8.0_221</td></tr>
       <tr>
-        <td>JENKINS_URL</td>
-        <td><a href="http://127.0.0.1:8076/" target="_blank">http://127.0.0.1:8076/</a></td></tr>
-      <tr>
-        <td>JOB_NAME</td>
-        <td>pytest_allure_test</td></tr>
-      <tr>
-        <td>NODE_NAME</td>
-        <td>master</td></tr>
-      <tr>
         <td>Packages</td>
-        <td>{&apos;py&apos;: &apos;1.10.0&apos;, &apos;pytest&apos;: &apos;6.1.2&apos;, &apos;pluggy&apos;: &apos;0.13.1&apos;}</td></tr>
+        <td>{&apos;pluggy&apos;: &apos;0.13.1&apos;, &apos;py&apos;: &apos;1.10.0&apos;, &apos;pytest&apos;: &apos;6.1.2&apos;}</td></tr>
       <tr>
         <td>Platform</td>
         <td>Linux-4.15.0-139-generic-x86_64-with-Ubuntu-16.04-xenial</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{&apos;html&apos;: &apos;1.22.1&apos;, &apos;allure-pytest&apos;: &apos;2.8.36&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;}</td></tr>
+        <td>{&apos;cov&apos;: &apos;2.10.1&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;allure-pytest&apos;: &apos;2.8.36&apos;, &apos;html&apos;: &apos;1.22.1&apos;}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.5.2</td></tr>
-      <tr>
-        <td>WORKSPACE</td>
-        <td>/opt/apache-tomcat-10.0.5/webapps/jenkins/workspace/pytest_allure_test</td></tr></table>
+        <td>3.5.2</td></tr></table>
     <h2>Summary</h2>
-    <p>7 tests ran in 0.07 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>8 tests ran in 0.23 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -466,34 +439,25 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">testcases/UnitTest/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为egroup]</td>
+          <td class="col-name">testcases/UnitTest/PFX/forward_policies/test1/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为egroup]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">data = {&#x27;discription&#x27;: {&#x27;title&#x27;: &#x27;出接口为egroup&#x27;}, &#x27;exp&#x27;: {&#x27;text&#x27;: {&#x27;C1&#x27;: [&#x27;policy1&#x27;], &#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}}, &#x27;...es&#x27;: [&#x27;C2&#x27;]}, &#x27;parameter&#x27;: {&#x27;policy_name&#x27;: &#x27;policy1&#x27;, &#x27;self_dict&#x27;: {&#x27;1&#x27;: {&#x27;configuration&#x27;: {&#x27;evif_name&#x27;: &#x27;egroup1&#x27;}}}}}<br/><br/>    @staticmethod<br/>    def test_get_egress_port_keys_of_policy_name_todict(data):<br/>        parameter = data[&quot;parameter&quot;]<br/>        exp = data[&quot;exp&quot;][&quot;text&quot;]<br/>        mock_value = data.get(&quot;mock_value&quot;)<br/>        class_instance = forward_policy()<br/>        &#x27;&#x27;&#x27;<br/>        mock 虚拟数据<br/>        &#x27;&#x27;&#x27;<br/>        if mock_value:<br/>    <br/>            egroup.get_egroup_interfaces = mock.Mock(return_value = mock_value.get(&#x27;egroup.get_egroup_interfaces&#x27;))<br/>            elag.get_elag_interfaces = mock.Mock(return_value = mock_value.get(&#x27;elag.get_elag_interfaces&#x27;))<br/>        # egroup.get_egroup_interfaces = mock.Mock(return_value=mock_value)<br/>        # elag.get_elag_interfaces = mock.Mock(return_value=mock_value)<br/>    <br/>        find = class_instance.get_egress_port_keys_of_policy_name_todict(self_dict=parameter[&#x27;self_dict&#x27;],policy_name=parameter[&#x27;policy_name&#x27;])<br/>    <br/>&gt;       assert find == exp<br/><span class="error">E       AssertionError: assert {&#x27;C1&#x27;: [&#x27;policy1&#x27;]} == {&#x27;C1&#x27;: [&#x27;policy1&#x27;], &#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         Common items:</span><br/><span class="error">E         {&#x27;C1&#x27;: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         Right contains 2 more items:</span><br/><span class="error">E         {&#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         Full diff:</span><br/><span class="error">E         - {&#x27;C1&#x27;: [&#x27;policy1&#x27;], &#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         + {&#x27;C1&#x27;: [&#x27;policy1&#x27;]}</span><br/><br/>testcases/UnitTest/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py:44: AssertionError<br/></div></td></tr></tbody>
+            <div class="log">data = {&#x27;discription&#x27;: {&#x27;title&#x27;: &#x27;出接口为egroup&#x27;}, &#x27;exp&#x27;: {&#x27;text&#x27;: {&#x27;C1&#x27;: [&#x27;policy1&#x27;], &#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}}, &#x27;...es&#x27;: [&#x27;C2&#x27;]}, &#x27;parameter&#x27;: {&#x27;policy_name&#x27;: &#x27;policy1&#x27;, &#x27;self_dict&#x27;: {&#x27;1&#x27;: {&#x27;configuration&#x27;: {&#x27;evif_name&#x27;: &#x27;egroup1&#x27;}}}}}<br/><br/>    @staticmethod<br/>    def test_get_egress_port_keys_of_policy_name_todict(data):<br/>        parameter = data[&quot;parameter&quot;]<br/>        exp = data[&quot;exp&quot;][&quot;text&quot;]<br/>        mock_value = data.get(&quot;mock_value&quot;)<br/>        class_instance = forward_policy()<br/>        &#x27;&#x27;&#x27;<br/>        mock 虚拟数据<br/>        &#x27;&#x27;&#x27;<br/>        if mock_value:<br/>    <br/>            elag.get_elag_interfaces = mock.Mock(return_value = mock_value.get(&#x27;elag.get_elag_interfaces&#x27;))<br/>            egroup.get_egroup_interfaces = mock.Mock(return_value = mock_value.get(&#x27;egroup.get_egroup_interfaces&#x27;))<br/>        # egroup.get_egroup_interfaces = mock.Mock(return_value=mock_value)<br/>        # elag.get_elag_interfaces = mock.Mock(return_value=mock_value)<br/>    <br/>        find = class_instance.get_egress_port_keys_of_policy_name_todict(self_dict=parameter[&#x27;self_dict&#x27;],policy_name=parameter[&#x27;policy_name&#x27;])<br/>    <br/>&gt;       assert find == exp<br/><span class="error">E       AssertionError: assert {&#x27;C1&#x27;: [&#x27;policy1&#x27;]} == {&#x27;C1&#x27;: [&#x27;poli...: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         Omitting 1 identical items, use -vv to show</span><br/><span class="error">E         Right contains 2 more items:</span><br/><span class="error">E         {&#x27;C2&#x27;: [&#x27;policy1&#x27;], &#x27;C3&#x27;: [&#x27;policy1&#x27;]}</span><br/><span class="error">E         Use -v to get the full diff</span><br/><br/>testcases/UnitTest/PFX/forward_policies/test1/test_get_egress_port_keys_of_policy_name_todict.py:44: AssertionError<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">testcases/UnitTest/pay_test/test_pay.py::Test_pay::test_pay[服务器错误测试]</td>
+          <td class="col-name">testcases/UnitTest/PFX/pay_test/test_pay.py::Test_pay::test_pay[服务器错误测试]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">data = {&#x27;discription&#x27;: {&#x27;title&#x27;: &#x27;服务器错误测试&#x27;}, &#x27;exp&#x27;: {&#x27;text&#x27;: &#x27;服务器异常&#x27;}, &#x27;mock_value&#x27;: {&#x27;self.auth&#x27;: {&#x27;status_code&#x27;: &#x27;500&#x27;}}, &#x27;parameter&#x27;: {&#x27;amount&#x27;: &#x27;1002&#x27;, &#x27;card&#x27;: &#x27;621785360000099&#x27;, &#x27;user_id&#x27;: &#x27;001&#x27;}}<br/><br/>    @staticmethod<br/>    def test_pay(data):<br/>        parameter = data[&quot;parameter&quot;]<br/>        exp = data[&quot;exp&quot;][&quot;text&quot;]<br/>        mock_value = data.get(&quot;mock_value&quot;)<br/>        class_instance = PayApi()<br/>        &#x27;&#x27;&#x27;<br/>        mock 虚拟数据<br/>        &#x27;&#x27;&#x27;<br/>        if mock_value:<br/>    <br/>            PayApi.auth = mock.Mock(return_value = mock_value.get(&#x27;self.auth&#x27;))<br/>        # egroup.get_egroup_interfaces = mock.Mock(return_value=mock_value)<br/>        # elag.get_elag_interfaces = mock.Mock(return_value=mock_value)<br/>    <br/>        find = class_instance.pay(card=parameter[&#x27;card&#x27;],amount=parameter[&#x27;amount&#x27;],user_id=parameter[&#x27;user_id&#x27;])<br/>    <br/>&gt;       assert find == exp<br/><span class="error">E       AssertionError: assert &#x27;未知错误&#x27; == &#x27;服务器异常&#x27;</span><br/><span class="error">E         - 服务器异常</span><br/><span class="error">E         + 未知错误</span><br/><br/>testcases/UnitTest/pay_test/test_pay.py:43: AssertionError<br/></div></td></tr></tbody>
+            <div class="log">data = {&#x27;discription&#x27;: {&#x27;title&#x27;: &#x27;服务器错误测试&#x27;}, &#x27;exp&#x27;: {&#x27;text&#x27;: &#x27;服务器异常&#x27;}, &#x27;mock_value&#x27;: {&#x27;self.auth&#x27;: {&#x27;status_code&#x27;: &#x27;500&#x27;}}, &#x27;parameter&#x27;: {&#x27;amount&#x27;: &#x27;1002&#x27;, &#x27;card&#x27;: &#x27;621785360000099&#x27;, &#x27;user_id&#x27;: &#x27;001&#x27;}}<br/><br/>    @staticmethod<br/>    def test_pay(data):<br/>        parameter = data[&quot;parameter&quot;]<br/>        exp = data[&quot;exp&quot;][&quot;text&quot;]<br/>        mock_value = data.get(&quot;mock_value&quot;)<br/>        class_instance = PayApi()<br/>        &#x27;&#x27;&#x27;<br/>        mock 虚拟数据<br/>        &#x27;&#x27;&#x27;<br/>        if mock_value:<br/>    <br/>            PayApi.auth = mock.Mock(return_value = mock_value.get(&#x27;self.auth&#x27;))<br/>        # egroup.get_egroup_interfaces = mock.Mock(return_value=mock_value)<br/>        # elag.get_elag_interfaces = mock.Mock(return_value=mock_value)<br/>    <br/>        find = class_instance.pay(amount=parameter[&#x27;amount&#x27;],user_id=parameter[&#x27;user_id&#x27;],card=parameter[&#x27;card&#x27;])<br/>    <br/>&gt;       assert find == exp<br/><span class="error">E       AssertionError: assert &#x27;未知错误&#x27; == &#x27;服务器异常&#x27;</span><br/><span class="error">E         - 服务器异常</span><br/><span class="error">E         + 未知错误</span><br/><br/>testcases/UnitTest/PFX/pay_test/test_pay.py:43: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/UnitTest/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为elag]</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">testcases/UnitTest/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为单接口]</td>
+          <td class="col-name">testcases/UnitTest/PFX/forward_policies/test1/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为elag]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -502,7 +466,7 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/UnitTest/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[无出接口]</td>
+          <td class="col-name">testcases/UnitTest/PFX/forward_policies/test1/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[出接口为单接口]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -511,7 +475,7 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/UnitTest/pay_test/test_pay.py::Test_pay::test_pay[支付成功测试]</td>
+          <td class="col-name">testcases/UnitTest/PFX/forward_policies/test1/test_get_egress_port_keys_of_policy_name_todict.py::Test_get_egress_port_keys_of_policy_name_todict::test_get_egress_port_keys_of_policy_name_todict[无出接口]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -520,7 +484,25 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">testcases/UnitTest/pay_test/test_pay.py::Test_pay::test_pay[支付失败测试]</td>
+          <td class="col-name">testcases/UnitTest/PFX/forward_policies/test1/test_get_elag_interfaces.py::Test_get_elag_interfaces::test_get_elag_interfaces[可获取到elag子接口]</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">testcases/UnitTest/PFX/pay_test/test_pay.py::Test_pay::test_pay[支付成功测试]</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">testcases/UnitTest/PFX/pay_test/test_pay.py::Test_pay::test_pay[支付失败测试]</td>
           <td class="col-duration">0.00</td>
           <td class="col-links"></td></tr>
         <tr>

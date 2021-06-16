@@ -1,0 +1,11 @@
+2021-06-16 16:19:26.413 | INFO     | __main__:generate:35 - 进行待测试的excel文件列表:
+['/home/forever/my_file/WhiteBox_AutoTest/data/excel_data/PFX/forward_policy.xlsx', '/home/forever/my_file/WhiteBox_AutoTest/data/excel_data/PFX/PayApi.xlsx']
+2021-06-16 16:19:26.424 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 16:19:26.429 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py
+2021-06-16 16:19:26.429 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:19:26.430 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/forward_policies/test_get_elag_interfaces.py
+2021-06-16 16:19:26.430 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:19:26.435 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 16:19:26.441 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/pay_test/test_pay.py
+2021-06-16 16:19:26.442 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:19:26.442 | ERROR    | __main__:pytest_run:49 - ['-s', '--alluredir', 'report/allure-data', '--html', 'report/report.html--cov', 'code', '--cov-report', 'html', '-m pay']

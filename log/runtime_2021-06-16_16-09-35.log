@@ -1,0 +1,11 @@
+2021-06-16 16:09:35.614 | INFO     | __main__:generate:35 - 进行待测试的excel文件列表:
+['/home/forever/my_file/WhiteBox_AutoTest/data/excel_data/PFX/forward_policy.xlsx', '/home/forever/my_file/WhiteBox_AutoTest/data/excel_data/PFX/PayApi.xlsx']
+2021-06-16 16:09:35.624 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 16:09:35.629 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/forward_policies/test_get_egress_port_keys_of_policy_name_todict.py
+2021-06-16 16:09:35.630 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:09:35.630 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/forward_policies/test_get_elag_interfaces.py
+2021-06-16 16:09:35.630 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:09:35.635 | WARNING  | utils.generate_caces:generate_case:47 - testcases/UnitTest/
+2021-06-16 16:09:35.638 | INFO     | utils.generate_caces:generate_case:71 - testcases/UnitTest/PFX/pay_test/test_pay.py
+2021-06-16 16:09:35.639 | INFO     | utils.generate_caces:generate_case:106 - +++++++++++++++
+2021-06-16 16:09:35.639 | ERROR    | __main__:pytest_run:48 - ['-m pay', '-s', '--alluredir', '-v v', './report/xml']

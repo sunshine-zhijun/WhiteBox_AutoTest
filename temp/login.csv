@@ -1,6 +1,0 @@
-ID,TestCase,Level,Type,Annotation,Target,Expected_Data,Parameter,Response,Author,Result
-1_1,登录-合法1,1,POST,Test,https://$<target_ip>/login,"{""status_code"": 200}","{
-  ""username"": ""admin"",
-  ""password"": ""Passok""
-}",,,
-1_2,登录-合法1,1,POST,After,https://$<target_ip>/logout,"{""status_code"": 201}",,,,
