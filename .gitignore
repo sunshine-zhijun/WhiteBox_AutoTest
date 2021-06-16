@@ -1,4 +1,4 @@
 report/*
-testcases/*
+testcases/UnitTest/*
 log/*
 /__pycache__
