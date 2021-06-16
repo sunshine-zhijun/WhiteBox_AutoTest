@@ -1,3 +1,4 @@
-report/allure-data/*
-report/allure-html/*
-
+report/*
+testcases/*
+log/*
+/__pycache__
