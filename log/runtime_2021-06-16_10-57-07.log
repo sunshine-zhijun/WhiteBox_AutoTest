@@ -1,3 +1,0 @@
-2021-06-16 10:57:07.263 | DEBUG    | __main__:generate:29 - ==========safsaf
-2021-06-16 10:57:07.263 | WARNING  | __main__:generate:30 - if you are using python 3.6, prefer f-strings of course!
-2021-06-16 10:57:07.263 | FAIL     | __main__:generate:31 - ++++++++
